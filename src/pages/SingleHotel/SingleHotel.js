@@ -26,7 +26,7 @@ export const SingleHotel = () => {
     (async () => {
       try {
         const { data } = await axios.get(
-          `https://travello-backend.vercel.app/api/hotels/${id}`
+          `https://travelapp.cyclic.app/api/hotels/${id}`
         );
         setSingleHotel(data);
       } catch (err) {
